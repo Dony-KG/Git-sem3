@@ -99,3 +99,18 @@ Git - это программа для контроля версий
 ### Переключение между ветками
 
 Чтобы переключиться на новую ветку ...
+
+Описание команд
+
+    git branch
+    git branch <branch_name>
+    git branch -d <branch_name>
+
+    git checkout <brenc_name>
+
+    git log --graph
+    git log --all --oneline --graph
+
+    git merge <branch_name>
+
+    Конфликт слияния и его разрешение
