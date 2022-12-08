@@ -125,8 +125,6 @@ Git - это программа для контроля версий
 
     git log --graph
 
-
-
     git log --all --oneline --graph
 
     git merge <branch_name>
