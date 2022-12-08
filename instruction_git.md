@@ -98,9 +98,20 @@ Git - это программа для контроля версий
 
 ### Создание новой ветки
 
-Чтобы создать новую, ветку нужно ввести команду:
+Чтобы создать новую ветку, нужно ввести команду:
 
     git branch <branch_name>
+
+### Удаление ветки
+
+Чтобы удалить ветку, нужно ввести команду:
+
+    git branch -d <branch_name>
+
+Чтобы удалить ветку принудительно, нужно ввести команду:
+
+    git branch -D <branch_name>
+
 
 ### Переключение между ветками
 
@@ -108,12 +119,7 @@ Git - это программа для контроля версий
 
 Описание команд
 
-
-
-    git branch -d <branch_name>
-    git branch -D <branch_name>
-
-    git checkout <brenc_name>
+    git checkout <branch_name>
 
     git log --graph
     git log --all --oneline --graph
