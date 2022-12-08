@@ -105,6 +105,7 @@ Git - это программа для контроля версий
     git branch
     git branch <branch_name>
     git branch -d <branch_name>
+    git branch -D <branch_name>
 
     git checkout <brenc_name>
 
@@ -114,5 +115,4 @@ Git - это программа для контроля версий
     git merge <branch_name>
 
     Конфликт слияния и его разрешение
-    
     
